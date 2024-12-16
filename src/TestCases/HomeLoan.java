@@ -19,6 +19,7 @@ public class HomeLoan {
 	@Test(enabled=false)
 	public void MobileLoginHome() {
 		System.out.println("Mobile login Home");
+		System.out.println("Mobile login test");
 	}
 	
 	/*
@@ -30,6 +31,7 @@ public class HomeLoan {
 	@Test(groups= {"smoke"},dependsOnMethods= {"webLoginHome"})
 	public void APILoginHome() {
 		System.out.println("API login Home");
+		System.out.println("Using REST API login");
 		Assert.assertTrue(false);
 	}
 	
