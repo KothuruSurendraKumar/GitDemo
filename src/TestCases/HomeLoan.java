@@ -11,8 +11,8 @@ public class HomeLoan {
 	@Test
 	public void webLoginHome(String URL,String username) {
 		System.out.println("Web login Home");
-		System.out.println("name "+username);
-		System.out.println("URL "+URL);
+		System.out.println("user name "+username);
+		System.out.println("URL Link "+URL);
 	}
 	
 	//if you need to skip any test method you can use this enabled= false
